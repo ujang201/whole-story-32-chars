@@ -1,0 +1,20 @@
+Write a program, main.ts, that picks the best Wi-Fi network name of at most
+32 characters for the make.fun bounty "Tell a Whole Story in 32 Characters"
+and writes it to /output/entry.txt.
+
+The name must land a joke on the first read and imply a whole story — a
+situation, a character, and something that happened — in the few words a
+passer-by sees in a phone's network list. It must be fresh: avoid the stock
+Wi-Fi jokes everyone has seen (FBI Van, Pretty Fly for a Wi-Fi, It Burns
+When IP, No Free WiFi). Every character must earn its place.
+
+The program must be deterministic (no randomness, clock, network, or input
+files) so two runs produce byte-identical output, and it must validate the
+winner is 1-32 characters and not only white space before writing it with
+no trailing newline. Keep a shortlist of drafted names, score each against
+the judge's brief (joke first, then story, then freshness, then tightness),
+and write the winner.
+
+Chosen entry: "The WiFi Outlived The Marriage" (30 characters) — a marriage
+ended, the divorce is done, and the one thing still broadcasting from the
+house is the network the couple set up together.
